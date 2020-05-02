@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/luizfelipew/clean-nodejs-api/issues"
   },
-  "homepage": "https://github.com/luizfelipew/clean-nodejs-api#readme"
+  "homepage": "https://github.com/luizfelipew/clean-nodejs-api#readme",
+  "devDependencies": {
+    "standard": "^14.3.3"
+  }
 }
