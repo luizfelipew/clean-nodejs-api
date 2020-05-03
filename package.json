@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/luizfelipew/clean-nodejs-api.git"
   },
+  "standard": {
+    "env": ["jest"]
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
