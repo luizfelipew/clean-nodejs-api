@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "standard --fix", 
+      "standard --fix",
       "git add"
     ]
   },
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/luizfelipew/clean-nodejs-api#readme",
   "devDependencies": {
     "husky": "^4.2.5",
+    "jest": "^25.5.4",
     "lint-staged": "^10.2.2",
     "standard": "^14.3.3"
   }
